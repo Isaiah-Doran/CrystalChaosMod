@@ -1,6 +1,7 @@
 package net.isaiah.crystalchaos;
 
 import com.mojang.logging.LogUtils;
+import net.isaiah.crystalchaos.block.ModBlocks;
 import net.isaiah.crystalchaos.item.ModItems;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
@@ -37,6 +38,7 @@ public class CrystalChaos
         MinecraftForge.EVENT_BUS.register(this);
 
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
 
 
@@ -57,6 +59,11 @@ public class CrystalChaos
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS){
             event.accept(ModItems.BLUE_MANA_CRYSTAL);
             event.accept(ModItems.RED_MANA_CRYSTAL);
+        }
+
+        if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS){
+            event.accept(ModBlocks.BLUE_MANA_CRYSTAL_BLOCK);
+            event.accept(ModBlocks.RED_MANA_CRYSTAL_BLOCK);
         }
 
     }

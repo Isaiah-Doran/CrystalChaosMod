@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "izayadscrystalchaos:block/blue_mana_crystal_block"
+  }
+}
