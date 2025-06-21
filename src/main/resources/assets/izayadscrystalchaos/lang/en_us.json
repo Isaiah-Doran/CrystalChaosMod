@@ -1,6 +1,10 @@
 {
   "item.izayadscrystalchaos.blue_mana_crystal" : "Blue Mana Crystal",
   "item.izayadscrystalchaos.red_mana_crystal" : "Red Mana Crystal",
+
   "block.izayadscrystalchaos.blue_mana_crystal_block" : "Blue Mana Crystal BLock",
-  "block.izayadscrystalchaos.red_mana_crystal_block" : "Red Mana Crystal BLock"
+  "block.izayadscrystalchaos.red_mana_crystal_block" : "Red Mana Crystal BLock",
+
+  "creativetab.izayadscrystalchaos.crystal_chaos_items": "Crystal Chaos Items",
+  "creativetab.izayadscrystalchaos.crystal_chaos_blocks": "Crystal Chaos Blocks"
 }
