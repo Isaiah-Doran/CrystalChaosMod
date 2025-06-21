@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "izayadscrystalchaos:item/red_mana_crystal"
+  }
+}
