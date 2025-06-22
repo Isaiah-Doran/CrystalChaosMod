@@ -21,11 +21,11 @@ public class ModBlocks {
 
     public static final RegistryObject<Block> BLUE_MANA_CRYSTAL_BLOCK = registerBlock("blue_mana_crystal_block",
             ()-> new Block(BlockBehaviour.Properties.of()
-                    .strength(4f).requiresCorrectToolForDrops().sound(SoundType.AMETHYST)));
+                    .strength(3f).requiresCorrectToolForDrops().sound(SoundType.AMETHYST)));
 
     public static final RegistryObject<Block> RED_MANA_CRYSTAL_BLOCK = registerBlock("red_mana_crystal_block",
             ()-> new Block(BlockBehaviour.Properties.of()
-                    .strength(4f).requiresCorrectToolForDrops().sound(SoundType.AMETHYST)));
+                    .strength(3f).requiresCorrectToolForDrops().sound(SoundType.AMETHYST)));
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block){
         RegistryObject<T> toReturn = BLOCKS.register(name, block);

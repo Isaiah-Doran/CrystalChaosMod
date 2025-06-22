@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "izayadscrystalchaos:red_mana_crystal_block"
+    }
+  ],
+
+  "result": {
+    "count" : 9,
+    "id" : "izayadscrystalchaos:red_mana_crystal"
+  }
+}

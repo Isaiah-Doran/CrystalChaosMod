@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls":0.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "izayadscrystalchaos:red_mana_crystal_block"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "izayadscrystalchaos:block/red_mana_crystal_block"
+}
