@@ -21,6 +21,7 @@ public class ModCreativeModeTabs {
                     .displayItems((itemDisplayParameters, output) ->{
                         output.accept(ModItems.BLUE_MANA_CRYSTAL.get());
                         output.accept(ModItems.RED_MANA_CRYSTAL.get());
+                        output.accept(ModItems.BLUE_WAND.get());
 
                     }).build());
 
